@@ -90,14 +90,25 @@ WSGI_APPLICATION = 'gestionTorneos.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql', # Usamos el motor de base de datos MySQL
+#         'NAME': 'gestionTorneosDB',  # Nombre de tu base de datos MySQL
+#         'USER': 'root',            # Usuario de MySQL
+#         'PASSWORD': '',     # Contraseña de MySQL
+#         'HOST': 'localhost',                   # Host donde se encuentra tu base de datos MySQL
+#         'PORT': '3307',                            # Puerto de la base de datos MySQL (deja en blanco para el valor predeterminado)
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Usamos el motor de base de datos MySQL
-        'NAME': 'gestionTorneosDB',  # Nombre de tu base de datos MySQL
+        'NAME': 'railway',  # Nombre de tu base de datos MySQL
         'USER': 'root',            # Usuario de MySQL
-        'PASSWORD': '',     # Contraseña de MySQL
-        'HOST': 'localhost',                   # Host donde se encuentra tu base de datos MySQL
-        'PORT': '3307',                            # Puerto de la base de datos MySQL (deja en blanco para el valor predeterminado)
+        'PASSWORD': 'DAHBa6aGfcbAfb6-cG61dEFf31gBDH54',     # Contraseña de MySQL
+        'HOST': 'viaduct.proxy.rlwy.net',                   # Host donde se encuentra tu base de datos MySQL
+        'PORT': '54037',                            # Puerto de la base de datos MySQL (deja en blanco para el valor predeterminado)
     }
 }
 
