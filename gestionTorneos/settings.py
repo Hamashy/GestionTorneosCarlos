@@ -101,10 +101,14 @@ WSGI_APPLICATION = 'gestionTorneos.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default='mysql://root:@localhost:3307/gestionTorneosDB',     
+#         conn_max_age=600    )
+# }
+
 DATABASES = {
-    'default': dj_database_url.config(
-        default='mysql://root:@localhost:3307/gestionTorneosDB',     
-        conn_max_age=600    )
+    'default': dj_database_url.config()
 }
 
 
