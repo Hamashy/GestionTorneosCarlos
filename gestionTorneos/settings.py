@@ -106,9 +106,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Usamos el motor de base de datos MySQL
         'NAME': 'railway',  # Nombre de tu base de datos MySQL
         'USER': 'root',            # Usuario de MySQL
-        'PASSWORD': 'DAHBa6aGfcbAfb6-cG61dEFf31gBDH54',     # Contraseña de MySQL
-        'HOST': 'viaduct.proxy.rlwy.net',                   # Host donde se encuentra tu base de datos MySQL
-        'PORT': '54037',                            # Puerto de la base de datos MySQL (deja en blanco para el valor predeterminado)
+        'PASSWORD': 'e455be6hDccefBehhDDCbDh6hAFF2hhd',     # Contraseña de MySQL
+        'HOST': 'roundhouse.proxy.rlwy.net',                   # Host donde se encuentra tu base de datos MySQL
+        'PORT': '39425',                            # Puerto de la base de datos MySQL (deja en blanco para el valor predeterminado)
     }
 }
 
